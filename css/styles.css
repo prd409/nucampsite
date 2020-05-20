@@ -20,7 +20,12 @@ header h2 {
   background-color: #901CAD;
 }
 
-footer {
+/* footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0;
+} */
+
+.site-footer {
   background-image: linear-gradient(#CEC8FF, white);
   padding: 20px 0;
 }
