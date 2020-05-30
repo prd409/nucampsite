@@ -1,3 +1,4 @@
+// *Carousel Pause/Play Button Script
 $(function () {
   $(".carousel").carousel({
     interval: 2000,
@@ -14,3 +15,4 @@ $(function () {
     }
   });
 });
+// !Carousel Pause/Play Button Script
