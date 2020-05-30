@@ -16,6 +16,10 @@ header h2 {
   color: #CEC8FF;
 }
 
+.navbar {
+  background-color: #901CAD;
+}
+
 .site-footer {
   background-image: linear-gradient(#CEC8FF, white);
   padding: 20px 0;
@@ -28,23 +32,22 @@ header h2 {
   color: white;
 }
 
-.navbar,
-.navbar-dark {
-  background-color: #901CAD;
-}
-
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
 }
 
-.carousel {
-  border: solid #5637DD;
+.navbar-dark {
+  background-color: #901CAD;
 }
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  border: solid #5637DD;
 }
 
 #carouselButton {
@@ -52,3 +55,4 @@ header h2 {
   right: 0;
   bottom: 0;
 }
+
