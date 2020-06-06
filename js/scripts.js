@@ -1,5 +1,5 @@
-// *Carousel Pause/Play Button Script
 $(function () {
+  // *Carousel Pause/Play Button Script
   $(".carousel").carousel({
     interval: 2000,
   });
@@ -14,5 +14,15 @@ $(function () {
       $("#carouselButton").children("i").addClass("fa-pause");
     }
   });
+  // !Carousel Pause/Play Button Script
+
+  // Reserve Campsite Button/Modal script
+  $("#reserveButton").click(function () {
+    $("#reserveModal").modal("show");
+  });
+
+  // Login Button/Modal script
+  $("#loginButton").click(function () {
+    $("#loginModal").modal("show");
+  });
 });
-// !Carousel Pause/Play Button Script
