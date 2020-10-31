@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
-    "clean": "rimraf dist", 
+    "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* -o dist/img",
     "lite": "lite-server",
